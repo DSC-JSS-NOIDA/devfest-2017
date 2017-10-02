@@ -1,13 +1,12 @@
 {
-  "title": "GDG DevFest Season 2016",
-  "description": "The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+  "title": "GDG JSS Noida DevFest Season 2017",
+  "description": "The biggest Google tech conference in Noida carefully crafted for you by GDG community! All about Android, Web and Cloud from the experts",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 9-10, 2016",
-  "locationAddressShort": "Lviv, Ukraine",
+  "dates": "November 9-10, 2017",
+  "locationAddressShort": "JSS, Noida",
   "motto": "Be a GDG. Be a Hero!",
-  "playIcon": "See how it was in 2015",
   "c4p": "Become a speaker",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Get ticket",
   "backToTop": "Back to top",
   "subscribe": "Subscribe",
   "yourEmail": "Your email",
@@ -122,19 +121,19 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 600,
+      "counter": 150,
       "caption": "Attendees"
     },
     {
-      "counter": 2,
+      "counter": 3,
       "caption": "Days"
     },
     {
-      "counter": 30,
+      "counter": 7,
       "caption": "Sessions"
     },
     {
-      "counter": 3,
+      "counter": 2,
       "caption": "Tracks"
     }
   ],
