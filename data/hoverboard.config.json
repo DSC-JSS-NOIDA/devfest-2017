@@ -1,5 +1,5 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://devest2017.firebaseapp.com/",
   "startDate": "2016-09-09T09:00:00+03:00",
   "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
@@ -16,7 +16,7 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "devfest2017",
+    "name": "devest2017",
     "domain": "devest2017.firebaseapp.com",
     "database": "https://devest2017.firebaseio.com",
     "api": "AIzaSyDNrCazzhv5IYXbJcRZP7bIAwM3s06LGrk",
@@ -36,8 +36,7 @@
   "hashtag": "dfua",
   "disqusShortName": "hoverboard-gdg-x",
   
-  "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "partnershipProposition": "http://devfest.gdgjss.in/partner",
   "enableSessionsRating": true,
   "navigation": [
     {
@@ -84,18 +83,18 @@
     }
   ],
   "location": {
-    "apiKey": "",
-    "name": "Pivdennyi Expo Center",
+    "apiKey": "AIzaSyD6YMawC9G-GGd1k276XmGibZBxcmscYns",
+    "name": "JSS ATE, Noida",
     "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "link": "https://www.facebook.com/gdgjss",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 28.6143209,
+      "longitude": 77.3587003,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": 28.6153094,
+      "longitude": 77.3663338
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
@@ -103,16 +102,7 @@
       "/images/backgrounds/location_3.jpg"
     ]
   },
-  "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
-    "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
-      "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
-      ]
-    }
-  },
+
   "pages": {
     "home": {
       "title": "Home",

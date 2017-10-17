@@ -1,9 +1,9 @@
 {
-  "title": "GDG JSS Noida DevFest Season 2017",
+  "title": "GDG Noida DevFest Season 2017",
   "description": "The biggest Google tech conference in Noida carefully crafted for you by GDG community! All about Android, Web and Cloud from the experts",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "November 9-10, 2017",
-  "locationAddressShort": "JSS, Noida",
+  "locationAddressShort": "JIIT, Noida",
   "motto": "Be a GDG. Be a Hero!",
   "c4p": "Become a speaker",
   "buyTicket": "Get ticket",
@@ -13,7 +13,7 @@
   "subscribeNote": "No spam, only the latest news and updates!",
   "contactUs": "Contact us",
   "ticketsTitle": "Tickets",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+  "ticketsDetails": "Tickets grant access to all conference sessions. And these are absolutely free of cost.",
   "close": "Close",
   "soldOutTickets": "Sold Out",
   "socialTitle": "Social",
@@ -22,16 +22,15 @@
   "clickToViewPhotos": "Click here to view more photos",
   "partners": "Partners",
   "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured #DFUA '15 Sessions",
-  "featuredVideosViewAll": "View all videos",
+
   "featuredPeopleTitle": "Rockstar Speakers",
-  "featuredPeopleViewAll": "View all speakers",
+  "featuredPeopleViewAll": "Soon to be announced",
   "action": "See how it was",
-  "locationTitle": "Pivdennyi Expo Center",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "Shchyretska St, 36",
+  "locationTitle": "JIIT, Noida",
+  "locationDescription": "Reputed Engg College",
+  "locationAddress": "Sec 62, Noida, UP",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+  "aboutOrganizers": "<a href='http://gdgjss.in' target='_blank'>GDG JSS Noida</a> and <a href='http://gdgjiit.in' target='_blank'>GDG JIIT Noida</a> being an active team .....",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is GDG?",
   "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -98,12 +97,12 @@
       "links": [
         {
           "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
+          "url": "http://devfest.gdgjss.in/partner",
           "newTab": true
         },
         {
           "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
+          "url": "http://devfest.gdgjss.in/media-kit",
           "newTab": true
         }
       ]
@@ -112,8 +111,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "gdgnoidadevfest@gmail.com",
+        "url": "mailto:gdgnoidadevfest@gmail.com"
       }
     ]
   },
@@ -121,11 +120,11 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 150,
+      "counter": 300,
       "caption": "Attendees"
     },
     {
-      "counter": 3,
+      "counter": 2,
       "caption": "Days"
     },
     {
@@ -136,9 +135,5 @@
       "counter": 2,
       "caption": "Tracks"
     }
-  ],
-  "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
-    "videoId": "DfMnJAzOFng"
-  }
+  ]
 }
