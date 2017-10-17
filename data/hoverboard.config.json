@@ -7,8 +7,7 @@
     "dev": "UA-89735155-3"
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG JSS & JIIT"
   },
   "webapp": {
     "shortName": "DevFest",
@@ -25,10 +24,6 @@
     "indexedDbSession": "hoverboard"
   },
     
-  "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
-  },
   "dateFormat": {
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
@@ -62,39 +57,39 @@
   ],
   "social": [
     {
-      "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "name": "gplus",
+      "nickname": "GDGJSSNoida",
+      "url": "https://plus.google.com/+GDGJSSNoida"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "GDGJIITNoida",
+      "url": "https://plus.google.com/+GDGJIITNOIDA"
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
+      "nickname": "GDG JSS",
+      "url": "https://www.facebook.com/gdgjss"
     },
     {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "name": "facebook",
+      "nickname": "GDG JIIT",
+      "url": "https://www.facebook.com/gdgjiitnoida"
     }
   ],
   "location": {
     "apiKey": "AIzaSyD6YMawC9G-GGd1k276XmGibZBxcmscYns",
-    "name": "JSS ATE, Noida",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/gdgjss",
+    "name": "JIIT, Noida",
+    "address": "Sector 62, Noida",
+    "link": "https://www.facebook.com/gdgjiitnoida",
     "pointer": {
-      "latitude": 28.6143209,
-      "longitude": 77.3587003,
+      "latitude": 28.6304366,
+      "longitude": 77.3700554,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 28.6153094,
-      "longitude": 77.3663338
+      "latitude": 28.6325769,
+      "longitude": 77.3864138
     },
     "images": [
       "/images/backgrounds/location_1.jpg",

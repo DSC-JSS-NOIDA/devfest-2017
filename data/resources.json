@@ -2,7 +2,7 @@
   "title": "GDG Noida DevFest Season 2017",
   "description": "The biggest Google tech conference in Noida carefully crafted for you by GDG community! All about Android, Web and Cloud from the experts",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "November 9-10, 2017",
+  "dates": "November XX-XX, 2017",
   "locationAddressShort": "JIIT, Noida",
   "motto": "Be a GDG. Be a Hero!",
   "c4p": "Become a speaker",
@@ -30,7 +30,7 @@
   "locationDescription": "Reputed Engg College",
   "locationAddress": "Sec 62, Noida, UP",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://gdgjss.in' target='_blank'>GDG JSS Noida</a> and <a href='http://gdgjiit.in' target='_blank'>GDG JIIT Noida</a> being an active team .....",
+  "aboutOrganizers": "<a href='http://gdgjss.in' target='_blank'>GDG JSS Noida</a> and <a href='https://www.facebook.com/gdgjiitnoida/' target='_blank'>GDG JIIT Noida</a> being an active team .....",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is GDG?",
   "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -73,21 +73,6 @@
         {
           "text": "Google Developers",
           "url": "https://developers.google.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
           "newTab": true
         }
       ]
