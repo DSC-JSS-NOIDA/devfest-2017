@@ -69,7 +69,6 @@
         selected-day="[[app.selectedDay]]"
         filters="{{filters}}"
       ></schedule-subnav>
-      <center><h2>To be announced soon..</h2></center>
       <neon-animated-pages selected="[[app.selectedDay]]" attr-for-selected="name">
         <template is="dom-repeat" items="[[schedule]]" as="day" on-dom-change="updateCascadedNodes">
           <schedule-day
