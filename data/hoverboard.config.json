@@ -98,6 +98,15 @@
     ]
   },
 
+  "gallery": {
+    "photos": {
+      "big": "/images/backgrounds/gallery_1.jpg",
+      "small": [
+        "/images/backgrounds/gallery_2.jpg",
+        "/images/backgrounds/gallery_3.jpg"
+      ]
+    }
+},
   "pages": {
     "home": {
       "title": "Home",

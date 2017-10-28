@@ -130,7 +130,16 @@
             <div class="home-wrapper">
               <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
                           alt="GDG DevFest Ukraine 2016"></iron-image>
-              <h3 class="dates">{$ dates $}</h3>
+              <div class="info-items" layout horizontal wrap>
+                <div class="info-item">
+                  <iron-icon icon="calendar-event"></iron-icon>
+                  {$ dates $}
+                </div>
+                <div class="info-item">
+                  <iron-icon icon="place"></iron-icon>
+                  {$ locationAddressShort $}
+                </div>
+              </div>
               <h2 class="motto">{$ motto $}</h2>
               {% if pages.home.headerSettings.video %}
                 <div class="open-video" on-tap="_openVideo">

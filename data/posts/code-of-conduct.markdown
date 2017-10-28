@@ -1,7 +1,7 @@
 # 1. Purpose
 
 
-A primary goal of [GDG Lviv](http://lviv.gdg.org.ua/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
+A primary goal of GDG JSS Noida and GDG JIIT Noida is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
 GDG Lviv prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
@@ -49,5 +49,6 @@ We expect all community participants to abide by this Code of Conduct in all com
 
 # 7. Contact info
 
-- Oleh Zasadnyy, +38 093 486 64 60, [oleh.zasadnyy@gdg.org.ua](mailto:oleh.zasadnyy@gdg.org.ua)
-- Sofiya Huts, +38 093 486 14 25, [sofia.huts@gmail.com](mailto:sofia.huts@gmail.com)
+- Ayush Sehgal, 9910680524, [sehgalayush26@gmail.com](mailto:sehgalayush26@gmail.com)
+- Abhishek Singhania, 9643156229, [abhisinghania14@gmail.com](mailto:abhisinghania14@gmail.com)
+- Deepti Jain, 9718669382, [deeptijain9676@gmail.com](mailto:deeptijain9676@gmail.com)
