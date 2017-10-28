@@ -53,6 +53,14 @@
     {
       "route": "team",
       "permalink": "/team/"
+    },
+    {
+      "route": "cod",
+      "permalink": "/cod/"
+    },
+    {
+      "route": "hackathon",
+      "permalink": "/hackathon/"
     }
   ],
   "social": [
@@ -146,6 +154,14 @@
     },
     "cod": {
       "title": "Cod of Conduct",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "hackathon": {
+      "title": "Hackathon",
       "headerSettings": {
         "backgroundColor": "#673ab7",
         "fontColor": "#fff",
