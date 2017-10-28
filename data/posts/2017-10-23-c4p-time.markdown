@@ -1,4 +1,4 @@
-GDG DevFest Noida 2017 has been announced! The biggest conference about Google technologies in Delhi-NCR will take on **November 11-12** in the city of Noida.
+GDG DevFest Noida 2017 has been announced! The biggest conference about Google technologies in Delhi-NCR will take place on **November 11-12** in the city of Noida.
 
 That means that it is time to open [call for talk submissions](https://docs.google.com/forms/d/e/1FAIpQLScpU9TT12B3J6JEl26BN6RQW3abawrCwtGv4obINd2d-javrA/viewform?usp=sf_link). If you are passionate about your work and want to share your experience with the biggest tech audience in Noida, you knocked on the right door.
 
@@ -46,7 +46,7 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 
 <br/>
 
-**Call for Papers will stay open until November 5, 2017.** Don’t miss out :)
+**Call for Papers will stay open until October 25, 2017.** Don’t miss out :)
 
 <div class="text-center">
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScpU9TT12B3J6JEl26BN6RQW3abawrCwtGv4obINd2d-javrA/viewform?usp=sf_link" target="_blank" class="style-scope header-content" style="color: white; ">
@@ -57,7 +57,7 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 
 **Please note:** There is no guarantee that a submission will be put onto the conference agenda! The program committee picks the most interesting talk proposals and informs the selected submitters.
 
-Any questions? Email organizers at [devfest@gdg.org.ua](mailto:gdgnoidadevfest@gmail.com)
+
 
 
 

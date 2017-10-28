@@ -106,11 +106,20 @@
     ]
   },
 
+  "gallery": {
+    "photos": {
+      "big": "/images/backgrounds/gallery_1.jpg",
+      "small": [
+        "/images/backgrounds/gallery_2.jpg",
+        "/images/backgrounds/gallery_3.jpg"
+      ]
+    }
+},
   "pages": {
     "home": {
       "title": "Home",
       "headerSettings": {
-        "backgroundColor": "#FF9800",
+        "backgroundColor": "#03a9f4",
         "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
