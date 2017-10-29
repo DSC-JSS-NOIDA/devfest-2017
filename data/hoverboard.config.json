@@ -55,10 +55,6 @@
       "permalink": "/team/"
     },
     {
-      "route": "cod",
-      "permalink": "/cod/"
-    },
-    {
       "route": "hackathon",
       "permalink": "/hackathon/"
     }
@@ -119,8 +115,8 @@
     "home": {
       "title": "Home",
       "headerSettings": {
-        "backgroundColor": "#03a9f4",
-        "backgroundImage": "/images/backgrounds/home.png",
+        "backgroundColor": "#9C27B0",
+        "backgroundImage": "/images/backgrounds/home_main.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         
@@ -141,6 +137,7 @@
       "title": "Speakers",
       "headerSettings": {
         "backgroundColor": "#3f51b5",
+        "backgroundImage": "/images/backgrounds/speakers.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
@@ -156,7 +153,8 @@
     "team": {
       "title": "Team",
       "headerSettings": {
-        "backgroundColor": "#009688",
+        "backgroundColor": "#3f51b5",
+        "backgroundImage": "/images/backgrounds/GDG.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
@@ -173,6 +171,7 @@
       "title": "Hackathon",
       "headerSettings": {
         "backgroundColor": "#673ab7",
+        "backgroundImage": "/images/backgrounds/hackathon.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
