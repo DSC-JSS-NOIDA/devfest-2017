@@ -2,7 +2,7 @@
   "title": "GDG Noida DevFest Season 2017",
   "description": "The biggest Google tech conference in Noida carefully crafted for you by GDG community! All about Android, Web and Cloud from the experts.",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "November 11-12, 2017",
+  "dates": "November 11-12",
   "locationAddressShort": "JIIT, Noida",
   "motto": "The biggest tech conference and Google event in Noida.",
   "c4p": "Become a speaker",
@@ -19,8 +19,8 @@
   "socialTitle": "Social",
   "socialMotto": "Add to circles, like, follow or connect with us on",
   "beforeHashtag": "What's up",
-  "clickToViewPhotos": "",
-  "partners": "Partners",
+  "clickToViewPhotos":"",  
+  "partners": "Sponsors",
   "becomePartner": "Become a partner",
 
   "featuredPeopleTitle": "Rockstar Speakers",
@@ -115,7 +115,7 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) JSS Noida](http://gdgjss.in/) and  [JIIT Noida](https://www.facebook.com/gdgjiitnoida/) - are open and volunteer geek communities that creates exciting projects and share experiences about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with our audience to boost development of IT.",
   "statistics": [
     {
-      "counter": "300+",
+      "counter": "400+",
       "caption": "Attendees"
     },
     {

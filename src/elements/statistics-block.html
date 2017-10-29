@@ -62,10 +62,23 @@
     <div class="container">
       <div class="statistics-wrapper">
         {% for statistic in statistics %}
+          {% if statistic.caption == "Hackathon" %}
+
+          <div class="statistics-element">
+            <a href="/hackathon" style="color:white;">
+            <span class="counter"> {$ statistic.counter $}</span>
+            </a>
+            <a href="/hackathon" style="color:white;">
+            <span class="caption">{$ statistic.caption $}</span>
+            </a>
+          </div>
+        
+          {% else %}
           <div class="statistics-element">
             <span class="counter">{$ statistic.counter $}</span>
             <span class="caption">{$ statistic.caption $}</span>
           </div>
+          {% endif %}
         {% endfor %}
       </div>
       <div class="description">{$ description $}</div>
