@@ -18,7 +18,7 @@
 <link rel="import" href="truncate-marked-text.html">
 
 
-<dom-module id="speaker-details">
+<dom-module id="sponsor-details">
 
   <template>
 
@@ -26,7 +26,7 @@
 
     <paper-scroll-header-panel id="scrollHeaderPanel" condenses="{{app.isPhoneSize}}" no-reveal="{{!app.isPhoneSize}}">
       <paper-toolbar class="tall">
-        <a href="/speakers">
+        <a href="/sponsors">
           <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         </a>
         <div class="middle fallback-image-wrapper" hidden$="{{app.isPhoneSize}}">
@@ -41,7 +41,6 @@
             <div class="photo" style$="background-image: url('[[speaker.photoUrl]]')" hidden$="{{app.isPhoneSize}}"></div>
             <div class="info">
               <h1 class="main-title" hidden$="{{app.isPhoneSize}}">[[speaker.name]]</h1>
-              <div class="meta highlight">[[speaker.company]]</div>
               <div class="meta">
                 <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
                   <a class="badge" href$="[[badge.link]]" target="_blank" rel="noopener noreferrer">[[badge.description]]</a>
@@ -100,7 +99,7 @@
 
       Polymer({
 
-        is: 'speaker-details',
+        is: 'sponsor-details',
 
         behaviors: [
           Polymer.PaperDialogBehavior,

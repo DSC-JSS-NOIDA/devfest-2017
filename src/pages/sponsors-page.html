@@ -13,7 +13,7 @@
 
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="../elements/truncate-marked-text.html">
-<link rel="import" href="../elements/speaker-details.html">
+<link rel="import" href="../elements/sponsor-details.html">
 <link rel="import" href="../elements/footer-block.html">
 <link rel="import" href="../behaviors/utils-behavior.html">
 <link rel="import" href="../behaviors/page-behavior.html">
@@ -220,12 +220,13 @@
     <footer-block app="{{app}}" cascaded></footer-block>
 
     <speaker-details id="speakerDetails"
+    <sponsor-details id="speakerDetails"
                      app="{{app}}"
                      speaker="{{_selectedSpeaker}}"
                      entry-animation="scale-up-animation"
                      exit-animation="fade-out-animation"
                      with-backdrop>
-    </speaker-details>
+    </sponsor-details>
 
   </template>
 

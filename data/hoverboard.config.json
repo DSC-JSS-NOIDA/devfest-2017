@@ -51,16 +51,16 @@
       "permalink": "/speakers/"
     },
     {
+      "route": "sponsors",
+      "permalink": "/sponsors/"
+    },
+    {
       "route": "team",
       "permalink": "/team/"
     },
     {
       "route": "hackathon",
       "permalink": "/hackathon/"
-    },
-    {
-      "route": "sponsors",
-      "permalink": "/sponsors/"
     }
   ],
   "social": [
