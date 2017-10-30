@@ -57,6 +57,10 @@
     {
       "route": "hackathon",
       "permalink": "/hackathon/"
+    },
+    {
+      "route": "sponsors",
+      "permalink": "/sponsors/"
     }
   ],
   "social": [
@@ -172,6 +176,14 @@
       "headerSettings": {
         "backgroundColor": "#673ab7",
         "backgroundImage": "/images/backgrounds/hackathon.jpg",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
