@@ -16,6 +16,6 @@ So hurry up to book tickets to DevFest, as you’ll get a huge inspiration to cr
 
 
 
-You can find information about registration, speakers, tickets and other latest news on the [conference website](http://gdgjss.in/devfest/),[GDG JSS Facebook](https://facebook.com/GDGJSS), [GDG JIIT Facebook](https://facebook.com/gdgjiitnoida). Don’t miss anything interesting!
+You can find information about registration, speakers, tickets and other latest news on the [conference website](http://gdgjss.in/devfest/), [GDG JSS Facebook](https://facebook.com/GDGJSS), [GDG JIIT Facebook](https://facebook.com/gdgjiitnoida). Don’t miss anything interesting!
 
 And most importantly: **Make the most of development. Make the most of you!**
