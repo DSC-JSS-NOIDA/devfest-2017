@@ -75,6 +75,9 @@
         background: var(--header-color);
         font-size: 13px;
       }
+      .disabled {
+        font-size: 13px;
+      }
 
       .signin-tab {
         --paper-tab-content-unselected: {
@@ -187,7 +190,7 @@
 
         <div class="action-button-wrapper" hidden$="[[app.isPhoneSize]]" layout horizontal center-center>
           <a href="{$ tickets.url $}" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
-            <paper-button class="action-button">{$ buyTicket $}</paper-button>
+            <paper-button class="disabled" disabled>{$ buyTicket $}</paper-button>
           </a>
         </div>
       </div>

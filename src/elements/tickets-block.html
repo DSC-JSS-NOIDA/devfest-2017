@@ -47,6 +47,9 @@
         background: #fff;
         color: var(--primary-text-color);
       }
+      .disabled {
+        margin-top: 30px;
+      }
 
       paper-dialog {
         background: #fff;
@@ -84,7 +87,7 @@
       </div>
       <div class="details">{$ ticketsDetails $}</div>
       <a href="[[app.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
-        <paper-button class="buy-button" raised>{$ buyTicket $}</paper-button>
+        <paper-button class="disabled" raised disabled>{$ buyTicket $}</paper-button>
       </a>
     </div>
 

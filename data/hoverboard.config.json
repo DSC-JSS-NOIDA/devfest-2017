@@ -39,29 +39,29 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
       "route": "schedule",
       "permalink": "/schedule/"
     },
     {
       "route": "speakers",
       "permalink": "/speakers/"
+    },    
+    {
+      "route": "hackathon",
+      "permalink": "/hackathon/"
     },
     {
-      "route": "sponsors",
-      "permalink": "/sponsors/"
+      "route": "blog",
+      "permalink": "/blog/"
     },
     {
       "route": "team",
       "permalink": "/team/"
     },
     {
-      "route": "hackathon",
-      "permalink": "/hackathon/"
-    }
+      "route": "sponsors",
+      "permalink": "/sponsors/"
+    }    
   ],
   "social": [
     {
