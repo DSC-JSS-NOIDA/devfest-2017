@@ -30,7 +30,7 @@ You can submit as many talks as you want. This year we accept submissions in two
 * 2/3-hour Workshops
 
 
-#### Talks that will not pass initial review
+#### Talks that will not pass initial review:
 * Talks about a specific tool/library/project explaining how it works or how to use it.
 * Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk.
 * Proposals that are not in English.
