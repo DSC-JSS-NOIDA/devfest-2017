@@ -67,6 +67,7 @@
       .home-wrapper {
         width: 100%;
         font-size: 18px;
+        font-weight: 100;
       }
 
       .logo {
@@ -83,7 +84,7 @@
         margin-top: 20px;
         font-size: 22px;
         line-height: 1;
-        font-weight: 500;
+        font-weight: 100;
       }
 
       .action-buttons {
@@ -149,8 +150,8 @@
                 </div>
               {% endif %}
               <div class="action-buttons">
-                <a href="http://gdgjss.in">
-                  <paper-button class="primary" raised>{$ buyTicket $}</paper-button>
+                <a href="#">
+                  <paper-button raised disabled class="primary" raised>{$ buyTicket $}</paper-button>
                 </a>
               </div>
             </div>
