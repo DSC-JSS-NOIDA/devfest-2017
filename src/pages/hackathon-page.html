@@ -2,14 +2,11 @@
 
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
-
-<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../../bower_components/paper-material/paper-material.html">
-
-<link rel="import" href="../../bower_components/marked-element/marked-element.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 
 <link rel="import" href="../elements/footer-block.html">
 <link rel="import" href="../behaviors/page-behavior.html">
+<link rel="import" href="../behaviors/utils-behavior.html">
 <link rel="import" href="../behaviors/cascaded-behavior.html">
 
 
@@ -22,38 +19,189 @@
         display: block;
       }
 
-      .details {
-        @apply(--layout-vertical);
-        @apply(--layout-center-justified);
+      .content-wrapper {
+          padding-bottom: 32px;
       }
 
-      .details-item {
+      .content {
         @apply(--layout-horizontal);
-        margin: 0 auto;
-        padding-bottom: 32px;
+        @apply(--layout-wrap);
+        @apply(--layout-justified);
       }
 
-      @media (min-width: 1600px) {
-        .container {
-          max-width: 960px;
+      .col {
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 24px;
+            z-index: 2;
         }
-      }
+
+        .col-content {
+            line-height: 32px;
+            display: block;
+            font-size: 16px;
+        }
+
+        a {
+            color: #346DF1;
+        }
+
+        section {
+            position: relative;
+            padding: 32px 0 72px 0;
+            @apply(--layout-vertical);
+            border-top: 2px solid #346DF1;
+        }
+        
+        section .title {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.2;
+            width: 100%;
+        }
+
+        section h3 {
+            margin: 32px 0 24px;
+        }
+
+        section .faqs {
+            width: 100%;
+        }
+
+        @media (min-width: 640px) {
+            .col {
+                margin-right: 24px;
+            }
+
+            .col:last-of-type {
+                margin-right: 0;
+            }
+
+            section {                
+                @apply(--layout-wrap);
+                @apply(--layout-horizontal);
+            }
+
+            section .title {
+                line-height: 54px;
+                width: 20%;
+                margin: 0 0 62px 0;
+            }
+
+            section .faqs {
+                box-sizing: border-box;
+                margin-top: -14px;
+                padding-left: 32px;
+                max-width: 910px;
+                padding-left: 64px;
+                width: 80%;
+            }
+
+            section h3 {
+                font-size: 24px;
+                line-height: 1.3333333333;
+            }
+        }
+
+    
     </style>
 
-    <iron-ajax auto id="ajax" url="[[source]]" handle-as="text" on-response="updateCascadedNodes" last-response="{{hackathon}}"></iron-ajax>
+      <div class="faq-wrapper">        
+        <div class="container">
 
-    <div class="container">
-      <div class="details">
-        <div class="details-item" cascaded>
-          <marked-element markdown="[[hackathon]]">
-            <div class="markdown-html"></div>
-          </marked-element>
+         <section id="general" class="section general">
+            <div class="title">
+                <h2>Overview</h2>
+            </div>            
+            <div class="faqs">
+
+                    <p>The Hackathon takes you on a new voyage of the hack with talented teams of developers, designers, and data scientists that blend innovation with creativity and construct solutions out of it, making your experience peerless and one of a kind. Team up with us on this unique and exciting journey. </p>
+
+                    <h3 id="dates-and-location">Dates and location</h3>
+                    <p>Hackathon will take place at 9:00AM on 12th of November at JIIT, Noida.
+
+                    <h3 id="stay-informed">Stay Informed</h3>                    
+                    <p>To stay up to date on the latest information on the hackathon, be sure to visit the <a href="https://devfest.gdgjss.in/">DevFest website</a>, and follow us on <a href="https://www.facebook.com/gdgjss/">Facebook (GDG JSS)</a> and <a href="https://facebook.com/gdgjiitnoida/">Facebook (GDG JIIT)</a>. You can also follow and join the social conversation about GDG DevFest Noida via official hashtags #DevFestNoida.          
+            </div>
+           </section>
+           <section id="themes" class="section themes">
+                <div class="title">
+                    <h2>Theme</h2>
+                </div>            
+                <div class="faqs">
+                    </br></br>
+                    <p>To be announced soon.</p>
+                    <!-- Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem 
+
+                    <h3 id="theme-1">Category 1</h3>
+
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem </p>
+                    <img src="/images/themes/theme-1.jpg">
+
+                    <h3 id="theme-2">Category 2</h3>
+
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem  </p>
+                    <img src="/images/themes/theme-2.jpg">
+
+
+                    <h3 id="theme-3">Category 3</h3>
+
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem </p>
+                    <img src="/images/themes/theme-3.jpg"> -->
+                    
+                </div>
+            </section>
+        
+            <section id="prize-details" class="section prize-details">
+                <div class="title">
+                    <h2>Prizes</h2>
+                </div>            
+                <div class="faqs">
+                    <p>To be announced soon.</p>
+
+                    <!-- <h3 id="prize-1">General Prizes</h3>
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem</p>
+
+                    <h3 id="prize-1">Women's Prizes</h3>
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem</p>
+
+                    <h3 id="prize-1">First and Second Year Prizes</h3>
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem</p> -->
+                </div>
+            </section>       
+        
+            <section id="rules" class="section rules">
+                <div class="title">
+                    <h2 id="rules-regulations">Rules &amp; Regulations</h2>
+                </div>            
+                <div class="faqs">
+                    </br></br>
+
+                    The registrations are on the spot. A valid student ID is necessary.
+
+                    </br></br></br>
+                    This is a team participation Hackathon. There should be at least 2 members and at most 5 members in each team. Individual registrants will not be considered. 
+
+                    </br> </br></br>
+                    You are expected to come up with new and innovative ideas, any idea that has been copied from somewhere will be disqualified.
+
+                    </br></br></br>
+                    Your hack must be developed entirely during the Hackathon duration. You may use open-source libraries and other freely available systems/services such as Google Maps, Facebook Connect, Twitter feeds, etc.
+
+                    </br></br></br>
+                        
+                    Once the hackathon ends, you will get an option to submit your hack - A fully working demo and Presentation (only PDF format) which explains the idea &amp; its Impact.
+
+                    </br></br></br>
+                    Teams shortlisted by the judges on the basis of their overall performance and teamwork during hackathon will proceed to the pitching round. Judges decision will be final.
+
+                </div>
+            </section> 
+
         </div>
       </div>
-    </div>
-
-    <footer-block app="{{app}}" cascaded></footer-block>
-
+         
+      <footer-block app="{{app}}" cascaded></footer-block>
   </template>
 
   <script>
@@ -65,20 +213,101 @@
         is: 'hackathon-page',
 
         behaviors: [
-          HOVERBOARD.PageBehavior,
-          HOVERBOARD.CascadedBehavior
+            Polymer.NeonSharedElementAnimatableBehavior,
+            HOVERBOARD.UtilsBehavior
         ],
 
+        ready: function () {
+            this._scrollToFaqChapter = this._scrollToFaqChapter.bind(this);
+        },
+
         properties: {
-          source: {
-            type: String,
-            value: 'data/posts/hackathon.markdown'
-          }
-        }
+            app: {
+              type: Object
+            },
+            team: {
+              type: Object
+            },
+            selected: {
+              type: Boolean,
+              observer: 'updateHeaderSettings'
+            },
+            headerSettings: {
+              type: Object,
+              notify: true
+            },
+            _headerSettings: {
+              type: Object,
+              value: function () {
+                return {
+                  backgroundColor: '#346DF1',
+                  fontColor: '#fff',
+                  tabBarColor: '#fff'
+                };
+              }
+            },
+  
+            animationConfig: {
+              type: Object,
+              value: function () {
+                return {
+                  'entry': [{
+                    name: 'fade-in-animation',
+                    animation: 'fade-in-animation',
+                    node: this,
+                    timing: {
+                      delay: 500
+                    }
+                  }],
+                  'exit': [{
+                    name: 'fade-out-animation',
+                    animation: 'fade-out-animation',
+                    node: this
+                  }]
+                };
+              }
+            }
+          },
+  
+          updateHeaderSettings: function () {
+            this.headerSettings = this.selected ? this._headerSettings : this.headerSettings;
+          },
+  
+          _updateCascadedNodes: function () {
+            var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
+            var cascadedArray = Array.prototype.slice.call(cascaded);
+            this.animationConfig.entry.push({
+              name: 'cascaded-animation',
+              animation: 'transform-animation',
+              transformFrom: 'translate3d(0, 100%, 0)',
+              timing: {
+                delay: 500
+              },
+              nodes: cascadedArray
+            });
+            this.animationConfig.exit.push({
+              name: 'cascaded-animation',
+              animation: 'transform-animation',
+              transformTo: 'translate3d(0, 100%, 0)',
+              nodes: cascadedArray
+            });
+          }, 
+          
+          _scrollToFaqChapter: function (e) {
+                e.preventDefault();
 
-      });
+                var elementIdToScroll = e.path[0].getAttribute('href');
+                var element = this.$$(elementIdToScroll);
 
-    })();
+                Polymer.AppLayout.scroll({
+                    top: element.getBoundingClientRect().top,
+                    behavior: 'smooth',
+                    target: HOVERBOARD.Elements.Scroller
+                });
+            }  
+        });
+
+    }());
   </script>
 
 </dom-module>

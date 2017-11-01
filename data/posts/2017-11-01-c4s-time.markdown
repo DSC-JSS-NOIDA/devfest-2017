@@ -1,0 +1,48 @@
+GDG DevFest Noida 2017 is  announced, and  the conference will bring together developers, managers and entrepreneurs on **November 11-12** to Noida.
+
+This year our team is doing big advancements in the content, we're building an extra stage to accommodate more visitors and provide three fully independent tracks on Android, Web and Google Cloud topics.
+ 
+Our focus is the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field. If you are passionate about your work and want to share your experience with the biggest tech audience in Noida, you knocked on the right door.
+
+
+<br/>
+
+### Why is it cool to speak at the DevFest?
+
+DevFest Noida is not an ordinary tech conference, besides selecting only the best speakers, we help them to succeed in delivering an exceptional quality talk on the stage. 
+
+Here are few perks that all our speakers get:
+
+
+1. **Exposure** By being a speaker, you are proving your level of expertise to a potential business partners or employers. Your talk will be promoted in our online resources and recording published in YouTube channel.
+2. **Unique networking** Being a speaker means you’ll have the unique chance to network with other speakers - the best experts in the industry.
+3. **Coaching** We're in the same boat, after being selected as a speaker our program committee will help you to deliver the best talk possible. We provide information about the audience, presentation templates, feedback on the slides, all to help you to prepare.
+
+
+
+### What are we looking for?
+
+We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies. Check the list of topics we're interested in (it is not full and updated all the time).
+
+#### Format
+You can submit as many talks as you want. This year we accept submissions in two formats:
+* 40-minute Sessions
+* 2/3-hour Workshops
+
+
+#### Talks that will not pass initial review
+* Talks about a specific tool/library/project explaining how it works or how to use it.
+* Talks whose focus is pitching a company or project. It’s cool that you mention your company during the presentation, but it shouldn’t be the focus of the talk.
+* Proposals that are not in English.
+* Recruitment talks to attract talent.
+
+
+<div class="text-center">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScpU9TT12B3J6JEl26BN6RQW3abawrCwtGv4obINd2d-javrA/viewform?usp=sf_link" target="_blank" class="style-scope header-content" style="color: white; ">
+  <paper-button class="primary style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">Submit a proposal</paper-button>
+</a>
+</div>
+<br/>
+
+
+
