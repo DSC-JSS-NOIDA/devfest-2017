@@ -47,51 +47,46 @@
 
       .time-box {
         font-family: 'Roboto', 'Noto', sans-serif;
-        font-size: 1.1em;
-        color: #fff;
-        border-radius: 2px;
+        /* font-size: 1.1em; */
+        /* color: #fff; */
+        /* border-radius: 2px; */
         display: inline-block;
-        margin: 0.2rem;
+        margin: 1px;
         position: relative;
-        width: 60px;
+        /* width: 66px; */
         box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-      }      
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1); padding: 10px;
+      }
 
       .time-box:hover {
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
       }
 
       #clockdiv div > span{
-        padding: 15px;
+        padding-top: 18px;
         border-radius: 3px;
         display: inline-block;
+        font-size: 40px;
+
       }
 
       .smalltext{
         text-align: center;
-        padding-top: 5px;
         padding-bottom: 10px;
-        font-size: 0.7em;
+        font-size: 12px;
       } 
-      .time-box-1 {
-        background-color: #507dad;
-      }
-      .time-box-2 {
-        background-color: #df5c4e;
-      }
-      .time-box-3 {
-        background-color: #1e8b5e;
-      }
-      .time-box-4 {
-        background-color: #c39d36;
-      }
+      
       @media (min-width: 601px) {
         .time-box {
           height: 150px;
           width: 150px;
           font-size: 2em;
           margin: 1rem;
+          border-radius: 50%;
+          border: 5px solid #9d3fb0;
+          background-color: white;
+          color: #9d3fb0;
+
         }
 
         .smalltext{
@@ -104,6 +99,25 @@
 
         .social-section:not(:first-of-type) {
           margin-top: 0;
+        }
+
+      }
+
+      @media (max-width: 601px) {
+        .time-box {
+          border-radius: 50%;
+          border: 3px solid #9d3fb0;
+          background-color: white;
+          color: #9d3fb0;
+          width: 50px;
+          height: 50px;
+        }
+
+        #clockdiv div > span{
+          padding-top: 0px;
+          border-radius: 3px;
+          display: inline-block;
+          font-size: 25px;
         }
 
       }
