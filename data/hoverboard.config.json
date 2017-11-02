@@ -149,7 +149,7 @@
     "schedule": {
       "title": "Schedule",
       "headerSettings": {
-        "backgroundColor": "#673ab7",
+        "backgroundColor": "#9D3FAF",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
