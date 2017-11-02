@@ -1,0 +1,227 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+
+<link rel="import" href="social-post.html">
+
+
+<dom-module id="countdown-block">
+
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+        background: #fff;
+        color: var(--text-primary-color);
+        --social-font-color: var(--text-primary-color);
+      }
+
+      a {
+        color: var(--text-primary-color);
+      }
+
+      .container {
+        text-align: center;
+        @apply(--layout-vertical);
+      }
+
+      .social-section {
+        @apply(--layout-flex-5);
+      }
+
+      .social-section:not(:first-of-type) {
+        margin-top: 30px;
+      }
+
+      .divider {
+        @apply(--layout-flex);
+      }
+
+      #clockdiv{
+        text-align: center;
+        margin: 0 auto;
+        }
+
+      .time-box {
+        font-family: 'Roboto', 'Noto', sans-serif;
+        font-size: 1.1em;
+        color: #fff;
+        border-radius: 2px;
+        display: inline-block;
+        margin: 0.2rem;
+        position: relative;
+        width: 60px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      }      
+
+      .time-box:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      }
+
+      #clockdiv div > span{
+        padding: 15px;
+        border-radius: 3px;
+        display: inline-block;
+      }
+
+      .smalltext{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 0.7em;
+      } 
+      .time-box-1 {
+        background-color: #507dad;
+      }
+      .time-box-2 {
+        background-color: #df5c4e;
+      }
+      .time-box-3 {
+        background-color: #1e8b5e;
+      }
+      .time-box-4 {
+        background-color: #c39d36;
+      }
+      @media (min-width: 601px) {
+        .time-box {
+          height: 150px;
+          width: 150px;
+          font-size: 2em;
+          margin: 1rem;
+        }
+
+        .smalltext{
+          padding-top: 15px;
+          font-size: 0.8em;
+        }  
+        .container {
+          @apply(--layout-horizontal);
+        }
+
+        .social-section:not(:first-of-type) {
+          margin-top: 0;
+        }
+
+      }
+
+    </style>
+
+
+    <div class="container">
+          <div id="clockdiv">
+            <div class="time-box time-box-1">
+              <span id="days"></span>
+              <div class="smalltext">Days</div>
+            </div>
+            <div class="time-box  time-box-2">
+              <span id="hours"></span>
+              <div class="smalltext">Hours</div>
+            </div>
+            <div class="time-box  time-box-3">
+              <span id="minutes"></span>
+              <div class="smalltext">Minutes</div>
+            </div>
+            <div  class="time-box  time-box-4">
+              <span id="seconds"></span>
+              <div class="smalltext">Seconds</div>
+            </div>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'countdown-block',
+
+        properties: {
+          interval: {
+            type: Number,
+            value: 10000
+          },
+
+          _posts: {
+            type: Array,
+            observer: '_postsChanged'
+          },
+
+          _selected: {
+            type: Number,
+            value: -1
+          }
+        },
+
+        _postsChanged: function () {
+          var index = this._selected;
+          if (this._posts) {
+            this._selected = (++index % this._posts.length);
+            this.author = this._posts[this._selected].user.screen_name;
+            this.when = this._posts[this._selected].created_at;
+            this.text = this._linkifyPost(this._posts[this._selected].text);
+
+            this.async(this._postsChanged, this.interval);
+          }
+        },
+
+        _linkifyPost: function (value) {
+          var replacedText, links1, links2, hashtags, profileLinks;
+          links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+          replacedText = value.replace(links1, '<a class="post-link" href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+          links2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+          replacedText = replacedText.replace(links2, '$1<a class="post-link" href="http://$2" target="_blank" rel="noopener noreferrer">$2</a>');
+          hashtags = /#(\S*)/g;
+          replacedText = replacedText.replace(hashtags, '<a class="post-link" href="https://twitter.com/search?q=%23$1" target="_blank" rel="noopener noreferrer">#$1</a>');
+          profileLinks = /\B@([\w-]+)/gm;
+          replacedText = replacedText.replace(profileLinks, '<a class="post-link" href="https://twitter.com/$1" target="_blank" rel="noopener noreferrer">@$1</a>');
+          return replacedText;
+        },
+
+        ready: function() {
+          var countDownDate = new Date("Nov 11, 2017 13:00:00").getTime();
+
+          var dayElement = this.$.days;   
+          var hourElement = this.$.hours;   
+          var minuteElement = this.$.minutes;   
+          var secondElement = this.$.seconds;   
+
+          var x = setInterval(function() {
+
+          // Get todays date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now an the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the result in the element with id="demo"
+          dayElement.textContent = days
+          hourElement.textContent = hours
+          minuteElement.textContent = minutes
+          secondElement.textContent = seconds
+
+          // If the count down is finished, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+                      element.textContent =  "EXPIRED";
+          }
+        }, 1000);
+        }
+
+      });
+    }());
+  </script>
+
+</dom-module>

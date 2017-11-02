@@ -2,6 +2,7 @@
 
 <link rel="import" href="../behaviors/cascaded-behavior.html">
 <link rel="import" href="../behaviors/page-behavior.html">
+<link rel="import" href="../elements/countdown-block.html">
 <link rel="import" href="../elements/statistics-block.html">
 <link rel="import" href="../elements/featured-people.html">
 {% if videosSessionsUrl %}
@@ -25,7 +26,8 @@
 <dom-module id="home-page">
 
   <template>
-
+    
+    <countdown-block app="{{app}}" cascaded></countdown-block>
     <statistics-block app="{{app}}" cascaded></statistics-block>
     <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
     {% if videosSessionsUrl %}
