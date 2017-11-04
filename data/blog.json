@@ -16,5 +16,14 @@
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/c4p-is-open.jpg",
     "brief": "GDG DevFest Noida 2017 announced! The biggest conference about Google technologies in Noida will take on **November 11-12** in Noida."
+  },
+  {
+    "id": "world-library-contest",
+    "title": "#BooksShare Contest",
+    "posted": "2017-11-04",
+    "primaryColor": "#3F51B5",
+    "secondaryColor": "#3F51B5",
+    "image": "/images/posts/world-library.png",
+    "brief": "Click the most creative selfie with books and win prizes!"
   }
 ]
