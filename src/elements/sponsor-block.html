@@ -1,0 +1,181 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
+<link rel="import" href="../../bower_components/paper-ripple/paper-ripple.html">
+
+
+<dom-module id="sponsor-block">
+<template>
+  <template is="dom-if" if="[[!app.isPhoneSize]]">
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      iron-image {
+        @apply(--layout-fit);
+      }
+
+      .photo-wrapper {
+        @apply(--layout-horizontal);
+        height: 200px;
+      }
+
+      .photo {
+        @apply(--layout-flex);
+        position: relative;
+      }
+
+      .photo:not(:first-of-type) {
+        display: none;
+      }
+
+      .vertical-block {
+        @apply(--layout-vertical);
+        @apply(--layout-flex);
+      }
+
+      .open-photos {
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+        @apply(--layout-fit);
+        padding: 16px;
+        background: rgba(0, 0, 0, .3);
+        color: #fff;
+        font-size: 21px;
+        opacity: 0;
+        transition: opacity .3s;
+        text-align: center;
+      }
+
+      .open-photos:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      @media (min-width: 601px) {
+        .photo-wrapper {
+          height: 500px;
+        }
+
+        .big {
+          @apply(--layout-flex-2);
+        }
+
+        .photo:not(:first-of-type) {
+          display: flex;
+        }
+      }
+    </style>
+
+    <div class="photo-wrapper">
+      <div class="photo big">
+        <a href="/blog/posts/world-library-contest/">
+        <iron-image
+          class="placeholder-color"
+          src="../../images/posts/world-library.png"
+          sizing="cover"
+          preload fade
+        ></iron-image>
+        </a>
+      </div>
+    </div>
+
+  </template>
+  <template is="dom-if" if="[[app.isPhoneSize]]">
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      iron-image {
+        @apply(--layout-fit);
+      }
+
+      .photo-wrapper {
+        @apply(--layout-horizontal);
+        height: 400px;
+      }
+
+      .photo {
+        @apply(--layout-flex);
+        position: relative;
+      }
+
+      .photo:not(:first-of-type) {
+        display: none;
+      }
+
+      .vertical-block {
+        @apply(--layout-vertical);
+        @apply(--layout-flex);
+      }
+
+      .open-photos {
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+        @apply(--layout-fit);
+        padding: 16px;
+        background: rgba(0, 0, 0, .3);
+        color: #fff;
+        font-size: 21px;
+        opacity: 0;
+        transition: opacity .3s;
+        text-align: center;
+      }
+
+      .open-photos:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      @media (min-width: 601px) {
+        .photo-wrapper {
+          height: 500px;
+        }
+
+        .big {
+          @apply(--layout-flex-2);
+        }
+
+        .photo:not(:first-of-type) {
+          display: flex;
+        }
+      }
+    </style>
+
+    <div class="photo-wrapper">
+      <div class="photo big">
+        <a href="/blog/posts/world-library-contest/">
+        <iron-image
+          class="placeholder-color"
+          src="../../images/posts/world-library-square.png"
+          sizing="cover"
+          preload fade
+        ></iron-image>
+        </a>
+      </div>
+    </div>
+
+  </template>
+</template>
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'sponsor-block'
+
+      });
+
+    }());
+  </script>
+
+</dom-module>

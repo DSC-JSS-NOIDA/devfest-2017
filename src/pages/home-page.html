@@ -5,6 +5,8 @@
 <link rel="import" href="../elements/countdown-block.html">
 <link rel="import" href="../elements/statistics-block.html">
 <link rel="import" href="../elements/featured-people.html">
+<link rel="import" href="../elements/photo-block.html">>
+<link rel="import" href="../elements/sponsor-block.html">
 {% if videosSessionsUrl %}
   <link rel="import" href="../elements/featured-videos.html">
 {% endif %}
@@ -41,6 +43,7 @@
       <photo-block app="{{app}}" cascaded></photo-block>
     {% endif %}
     <tickets-block app="{{app}}" cascaded></tickets-block>
+    <sponsor-block app="{{app}}" cascaded></sponsor-block>    
     <latest-posts app="{{app}}" posts="{{posts}}" cascaded></latest-posts>
     <social-feed app="{{app}}" cascaded></social-feed>
     <map-block app="{{app}}" selected="{{selected}}" cascaded></map-block>
