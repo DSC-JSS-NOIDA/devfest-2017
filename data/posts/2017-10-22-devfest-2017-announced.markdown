@@ -8,7 +8,7 @@ Google Developers Groups JSS Noida and JIIT Noida are proud to announce the  GDG
 * We will have a **12 hour-long hackathon**, developers will team up to produce high-grade solutions and pitch them to a panel of judges.
 * There will be tech-talks by seniors, alumni, and people from different organizations about new trends in the tech world.
 
-So hurry up to book tickets to DevFest, as you’ll get a huge inspiration to create your cool projects after these days in the company of coders, hackers, geeks and just experts of our industry.
+So hurry up and register for DevFest, and be ready to win awesome prizes and goodies. There are also lots of stickers, credits and many more benefits, and most important of all, you’ll get a huge inspiration to create your cool projects after these days in the company of coders, hackers, geeks and just experts of our industry.
 
 ### Festival organizers
 

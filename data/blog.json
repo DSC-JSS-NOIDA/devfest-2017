@@ -5,7 +5,7 @@
     "posted": "2017-10-22",
     "primaryColor": "#00BCD4",
     "secondaryColor": "#00BCD4",
-    "image": "/images/posts/announce.jpg",
+    "image": "/images/posts/announce.png",
     "brief": "Google Developer Groups JSS Noida and JIIT Noida are proud to announce the GDG DevFest 2017 which is the biggest Google related event in Noida carefully crafted by GDG community! The event will take place on **11-12th of November** in **Noida**."
   },
   {
@@ -19,7 +19,7 @@
   },
   {
     "id": "world-library-contest",
-    "title": "#BooksShare Contest",
+    "title": "#ShareBooks Contest",
     "posted": "2017-11-04",
     "primaryColor": "#3F51B5",
     "secondaryColor": "#3F51B5",
