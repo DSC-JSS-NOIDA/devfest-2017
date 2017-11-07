@@ -16,6 +16,7 @@
 
     <style include="shared-styles">
       :host {
+      	--min-header-height: 450px;
         --paper-tabs-selection-bar-color: #FFFFFF;
         --paper-tab-ink: rgba(255, 255, 255, 0.2);
         --paper-tab-content: {
@@ -33,7 +34,7 @@
       }
 
       app-toolbar {
-        min-height: var(--min-header-height, 120px);
+        min-height:var(--min-header-height);
         max-height: 360px;
       }
 
@@ -108,6 +109,18 @@
         margin-right: 5px;
       }
 
+      .sponsor-link {
+      	color: white;
+        font-size: 0.9em;
+
+      }
+
+	  .sponsor-item {
+      	margin-top: 10px;
+      	margin-bottom: 5px;
+      }
+
+
       @media (min-width: 601px) {
         .container {
           padding-bottom: 40px;
@@ -153,6 +166,10 @@
                 <a href="http://devfest.gdgjiitnoida.in/register/">
                   <paper-button class="primary" raised>{$ buyTicket $}</paper-button>
                 </a>
+              </div>
+              <div class="info-item sponsor-item">
+                <a class="sponsor-link" href="/blog/posts/world-library-contest/">BUMP UP YOUR HACKATHON SCORE BY 5% BY PARTICIPATING IN #ShareBooks CONTEST.</a>  
+
               </div>
             </div>
           </div>
