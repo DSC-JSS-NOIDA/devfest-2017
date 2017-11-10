@@ -17,6 +17,7 @@
         background: #fff;
         color: var(--text-primary-color);
         --social-font-color: var(--text-primary-color);
+        min-height: 300px;
       }
 
       a {
@@ -75,6 +76,14 @@
         padding-bottom: 10px;
         font-size: 12px;
       } 
+
+      #expiredblock {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 2.7rem;
+        width: 100%;
+        color: var(--default-primary-color);
+      }
       
       @media (min-width: 601px) {
         .time-box {
@@ -120,12 +129,16 @@
           font-size: 25px;
         }
 
+        #expiredblock {
+          font-size: 2rem;
+        }
       }
 
     </style>
 
 
     <div class="container">
+          <div id="expiredblock"></div>
           <div id="clockdiv">
             <div class="time-box time-box-1">
               <span id="days"></span>
@@ -204,7 +217,11 @@
           var dayElement = this.$.days;   
           var hourElement = this.$.hours;   
           var minuteElement = this.$.minutes;   
-          var secondElement = this.$.seconds;   
+          var secondElement = this.$.seconds;
+          var block = this.$.clockdiv;
+          var expiredBlock = this.$.expiredblock;     
+
+          expiredBlock.style.display = 'none';    
 
           var x = setInterval(function() {
 
@@ -213,6 +230,14 @@
 
           // Find the distance between now an the count down date
           var distance = countDownDate - now;
+
+          // If the count down is finished, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+              block.style.display = 'none';
+              expiredBlock.style.display = 'block'; 
+              expiredBlock.textContent =  "DevFest Noida 2017 is now live!";
+          }
 
           // Time calculations for days, hours, minutes and seconds
           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -226,11 +251,6 @@
           minuteElement.textContent = minutes
           secondElement.textContent = seconds
 
-          // If the count down is finished, write some text 
-          if (distance < 0) {
-            clearInterval(x);
-                      element.textContent =  "EXPIRED";
-          }
         }, 1000);
         }
 
