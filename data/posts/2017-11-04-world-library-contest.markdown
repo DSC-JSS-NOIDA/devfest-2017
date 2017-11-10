@@ -15,9 +15,9 @@ Share the selfie on your Facebook and Instagram profiles.
 Use the post text as “I Just gave X books on the World Library” (‘X’ is the number of books you give)
 Use the following tags and hashtags on the post without fail, or else we woud not get to know if you participated.
 </br>
-Tags: @edcamsworldlibrary, @edcamstechnologies, @GDGDevFest
+Tags: @edcamsworldlibrary @edcamstechnologies @GDGDevFest
 </br>
-Hashtags: #edcams, #edcamsworldlibrary, #karma, #teamname, #8booksuploaded (mention your number of books uploaded, eg 8 in case here)
+Hashtags: #edcams #edcamsworldlibrary #karma #teamname #8booksuploaded (mention your number of books uploaded, eg 8 in case here)
 </br>
 Get as many likes and shares to your post. Social validations might help you stand out for the evaluators.
 </br>
